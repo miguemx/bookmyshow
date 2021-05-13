@@ -1,0 +1,31 @@
+{
+  "name": "bookmyshow",
+  "version": "0.9.0",
+  "description": "web application for booking movies",
+  "main": "app.js",
+  "scripts": {
+    "start":"node app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/miguemx/bookingmyshow.git"
+  },
+  "keywords": [
+    "booking",
+    "my",
+    "show",
+    "srpago"
+  ],
+  "author": "miguemx",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/miguemx/bookingmyshow/issues"
+  },
+  "homepage": "https://github.com/miguemx/bookingmyshow#readme",
+  "dependencies": {
+    "dotenv": "^9.0.2",
+    "express": "^4.17.1",
+    "jsonwebtoken": "^8.5.1",
+    "mysql": "^2.18.1"
+  }
+}
